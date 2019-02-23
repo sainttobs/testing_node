@@ -19,6 +19,7 @@ describe('file to be tested',()=>{
 		});
 		it('should do something',()=>{
 			assert.equal(1,1);
+			console.log("ENV: ", process.env.NODE_ENV)
 		});
 
 		it('should do something else', ()=>{
